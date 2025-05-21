@@ -11,9 +11,11 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
          <Route path='/' element={<Home/>}/>
-         <Route path='/ByCategory/:' element={<ByCategory/>}/>
-         <Route path='/Details/:id'  element={<Details/>}/>
+         <Route path='/ByCategory/:BycategoryID' element={<ByCategory/>}/>
+         <Route path='/Details/:Detailid'  element={<Details/>}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
 )
+
+
